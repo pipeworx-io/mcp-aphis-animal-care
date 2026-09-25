@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-aphis-animal-care",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "APHIS Animal Care MCP — USDA Animal Welfare Act licensees, registrants and",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-bfbb6ebf42a325e9bcbe1de3d6b196b75fde7df34aa0c6dd7c70dd2abdcd859e",
-    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
+    "sourceHash": "v1-fbc049fdc6789deaf624fe9256867a90cbeefa94b673f5204dac7abdda8eeafb",
+    "sourceCommit": "dca20ba6e13a9aa1c9f2918fc2ddaffe4cc30e5c"
   }
 }
