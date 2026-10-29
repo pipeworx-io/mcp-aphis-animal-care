@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-aphis-animal-care",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "APHIS Animal Care MCP — USDA Animal Welfare Act licensees, registrants and Animal Care inspection reports.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-aphis-animal-care": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "aphis-animal-care"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-aphis-animal-care.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/aphis-animal-care",
   "pipeworx": {
-    "sourceHash": "v1-8ebd64a3afb1a2e604b1647933f710e279411a271618bbeec224a3cfb069c125",
-    "sourceCommit": "71f5325b13bb0ea0de2f0f7207885962ec91a484"
+    "mode": "gateway",
+    "slug": "aphis-animal-care",
+    "gatewaySlug": "aphis-animal-care",
+    "sourceHash": "v1-818168503d76fe3d0e673172249c7896ca58eccb94a30693fc76df33b24d0d01",
+    "sourceCommit": "c6136b81713e72ccb22977ca0c0cd981f8c3f081"
   }
 }
