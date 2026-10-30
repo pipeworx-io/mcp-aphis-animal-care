@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-aphis-animal-care",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "APHIS Animal Care MCP — USDA Animal Welfare Act licensees, registrants and Animal Care inspection reports.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "aphis-animal-care",
     "gatewaySlug": "aphis-animal-care",
-    "sourceHash": "v1-818168503d76fe3d0e673172249c7896ca58eccb94a30693fc76df33b24d0d01",
-    "sourceCommit": "c6136b81713e72ccb22977ca0c0cd981f8c3f081"
+    "sourceHash": "v1-f9f0f4ac137ac8739ee07ae19dc777db229d63883bace816e1b1942adc50d55d",
+    "sourceCommit": "aef970216f5309cdd22a27ddfc275e472aaadac1"
   }
 }
